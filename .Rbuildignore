@@ -1,0 +1,16 @@
+^\.travis\.yml$
+inst/demo
+.project
+.git
+.gitignore 	
+.Rprofile
+man-roxygen
+data-raw
+prep-release
+cran-comments.md
+.README.md.html
+pkg-build.sh
+^.*\.Rproj$
+^\.Rproj\.user$
+revdep
+.*\.md\.html
