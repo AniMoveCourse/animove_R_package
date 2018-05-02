@@ -1,14 +1,12 @@
 # Animove Meta-Package
 
-Ensures that the R packages needed for the [AniMove](https://www.animove.org) course are available on each participants computer and provides example data for use during the lectures.
-
-
-
+Installing this package ensures that the R packages needed for the [AniMove](https://www.animove.org) course are available on each participant's computer.
+In addition, it provides example data to be used during the lectures.
 
 ## Installation
 ```r
-library(devtools)
-install_github('AniMoveCourse/animove')
+install.packages("remotes")
+remotes::install_github('AniMoveCourse/animove')
 
 ```
 
