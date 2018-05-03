@@ -33,4 +33,3 @@ vignettes/*.pdf
 *.knit.md
 *.md.html
 .project
-data-raw

@@ -1,0 +1,25 @@
+[general]
+creator=R package 'raster'
+created=2016-09-20 19:51:20
+[georeference]
+nrows=1548
+ncols=976
+xmin=351719.220491762
+ymin=7211484.79789845
+xmax=439559.220491762
+ymax=7350804.79789845
+projection=+proj=utm +zone=36 +south +datum=WGS84 +units=m +no_defs +ellps=WGS84 +towgs84=0,0,0
+[data]
+datatype=FLT8S
+byteorder=little
+nbands=5
+bandorder=BIL
+minvalue=48.7515640258789:0:0:-0.0848993900998939:0.00358724859424742
+maxvalue=447.626556396484:35.2318705979598:70630.7935676784:0.770126898235544:0.0648071117266255
+nodatavalue=-1.7e+308
+[legend]
+legendtype=
+values=
+color=
+[description]
+layername=elev:slope:water_dist:mean_NDVI:var_NDVI

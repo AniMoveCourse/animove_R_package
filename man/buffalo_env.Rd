@@ -3,11 +3,31 @@
 \docType{data}
 \name{buffalo_env}
 \alias{buffalo_env}
-\title{Environmental layers coorresponding to the buffalo data set}
+\title{Environmental layers corresponding to the buffalo data set}
 \usage{
 data(buffalo_env)
 }
+\value{
+RasterBrick with five layers:
+\itemize{
+\item elevation
+\item slope
+\item distance to water
+\item mean NDVI
+\item variance NDVI
+}
+}
 \description{
-Environmental layers coorresponding to the buffalo data set
+Environmental layers corresponding to the buffalo data set
+}
+\examples{
+data(buffalo_move)
+data(buffalo_env)
+
+plot(buffalo_env, 1)
+lines(buffalo_move)
+}
+\seealso{
+buffalo_move
 }
 \keyword{datasets}
