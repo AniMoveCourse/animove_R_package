@@ -18,6 +18,7 @@ Imports:
     rgdal (>= 1.2-18),
     geosphere (>= 1.5-7),
     gdalUtils,
+    amt,
     adehabitatHR,
     adehabitatHS,
     circular,
