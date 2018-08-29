@@ -49,6 +49,7 @@ Imports:
 Remotes:
 	github::ctmm-initiative/ctmmweb,
     github::rforge/tlocoh/pkg,
+    github::16EAGLE/getSpatialData,
     url::https://raw.githubusercontent.com/cbracis/mrw/master/mrw.tar.gz,
     url::https://raw.githubusercontent.com/cbracis/waddle/master/waddle.tar.gz
 License: GPL v3
