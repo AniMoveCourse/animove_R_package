@@ -5,8 +5,8 @@ Authors@R: c(person("AnimoveCoreTeam",role="aut"), person("Benjamin", "Leutner",
 Description: This is a meta-package for use in the Animove lecture series. Its purpose is to install necessary packages for the course as well as some example data.
 URL: www.animove.org
 Depends:
-    R (>= 3.5),
-    move (>= 3.0.2)  
+    R (>= 3.5.0),
+    move (>= 3.0.2),  
 Imports: 
     ggplot2 (>= 2.2.1),
     sf (>= 0.6-1),
