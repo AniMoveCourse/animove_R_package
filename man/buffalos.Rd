@@ -3,9 +3,11 @@
 \docType{data}
 \name{buffalo_ll}
 \alias{buffalo_ll}
+\alias{buffalo_utm}
 \title{Buffalo data set}
 \usage{
 data(buffalo_ll)
+data(buffalo_utm)
 }
 \value{
 MoveStack of six individuals
@@ -17,10 +19,12 @@ buffalo_ll is unprojected (Longitude, Latitude).
 buffalo_utm is projected in UTM to match buffalo_env.
 }
 \examples{
+# Load example datasets
 data(buffalo_ll)
 data(buffalo_utm)
 data(buffalo_env)
 
+# Plot firste environmental layer and buffalo tracks
 plot(buffalo_env, 1)
 lines(buffalo_utm)
 }

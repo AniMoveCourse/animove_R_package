@@ -36,22 +36,23 @@ NULL
 #' 
 #' W. M. Getz, S. Fortmann-Roe, P. C. Cross, A. J. Lyons, S. J. Ryan, C. C. Wilmers. LoCoH: Nonparameteric kernel methods for constructing home ranges and utilization distributions. PLoS ONE 2:2, e207 (2007).
 #' @usage data(buffalo_ll)
+#' data(buffalo_utm)
 #' @return MoveStack of six individuals
 #' @docType data
 #' @keywords datasets
 #' @name buffalo_ll
 #' @seealso buffalo_env
+#' @rdname buffalos
+#' @aliases buffalo_utm
+#' @aliases buffalo_ll
 #' @examples
+#' # Load example datasets
 #' data(buffalo_ll)
 #' data(buffalo_utm)
 #' data(buffalo_env)
 #' 
+#' # Plot firste environmental layer and buffalo tracks
 #' plot(buffalo_env, 1)
 #' lines(buffalo_utm)
 NULL
 
-#' Buffalo data set
-#' @usage data(buffalo_utm)
-#' @inheritParams buffalo_ll
-#' @name buffalo_utm
-NULL

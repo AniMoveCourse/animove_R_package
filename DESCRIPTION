@@ -1,6 +1,6 @@
 Package: animove
 Title: Animove lecture series meta-package
-Version: 0.0.0.9000
+Version: 2018.0
 Authors@R: c(person("AnimoveCoreTeam",role="aut"), person("Benjamin", "Leutner", email = "benjamin.leutner@uni-wuerzburg.de", role = c("aut", "cre"))	)
 Description: This is a meta-package for use in the Animove lecture series. Its purpose is to install necessary packages for the course as well as some example data.
 URL: www.animove.org
