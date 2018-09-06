@@ -21,13 +21,14 @@ RasterBrick with five layers:
 Environmental layers corresponding to the buffalo data set
 }
 \examples{
-data(buffalo_move)
+data(buffalo_ll)
+data(buffalo_utm)
 data(buffalo_env)
 
 plot(buffalo_env, 1)
-lines(buffalo_move)
+lines(buffalo_utm)
 }
 \seealso{
-buffalo_move
+buffalo_utm buffalo_ll
 }
 \keyword{datasets}

@@ -11,12 +11,18 @@ Please make sure that the [GDAL](https://www.gdal.org/) libraries are installed 
  * MacOS: ask Siri
 
 
-## Install the animove package
+## Install the animove package in R on Linux / MacOS / BSD
 ```r
 install.packages("remotes")
 remotes::install_github('AniMoveCourse/animove')
 
 ```
 
+## Install the animove package in R on Windows
+```r
+install.packages("devtools")
+devtools::install_github("bleutner/remotes@cran_1.1.1")
+remotes::install_github('AniMoveCourse/animove')
 
+```
 
