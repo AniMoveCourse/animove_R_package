@@ -4,11 +4,9 @@ Version: 2018.0
 Authors@R: c(person("AnimoveCoreTeam",role="aut"), person("Benjamin", "Leutner", email = "benjamin.leutner@uni-wuerzburg.de", role = c("aut", "cre"))	)
 Description: This is a meta-package for use in the Animove lecture series. Its purpose is to install necessary packages for the course as well as some example data.
 URL: www.animove.org
-Depends:
-    R (>= 3.5.0),
+Depends: R (>= 3.5.0),
     move (>= 3.0.2)
-Imports: 
-    ggplot2 (>= 2.2.1),
+Imports: ggplot2 (>= 2.2.1),
     sf (>= 0.6-1),
     rgeos (>= 0.3-26),
     recurse (>= 1.1.0),
@@ -47,9 +45,7 @@ Imports:
     rworldmap,
     scales (>= 0.4.1),
     remotes
-Remotes:
-	github::ctmm-initiative/ctmmweb,
-    github::rforge/tlocoh/pkg,
+Remotes: github::ctmm-initiative/ctmmweb,
     github::16EAGLE/getSpatialData,
     url::https://raw.githubusercontent.com/cbracis/mrw/master/mrw.tar.gz,
     url::https://raw.githubusercontent.com/cbracis/waddle/master/waddle.tar.gz
