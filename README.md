@@ -4,7 +4,7 @@ Installing this package ensures that the R packages needed for the [AniMove](htt
 In addition, it provides example data to be used during the lectures.
 
 ## Installation
-### Install system dependencies
+### System dependencies
 Please make sure that the [GDAL](https://www.gdal.org/) libraries are installed on your system.
 
  * Windows: use the [OSGeo4W installer](https://trac.osgeo.org/osgeo4w/) 
@@ -12,7 +12,7 @@ Please make sure that the [GDAL](https://www.gdal.org/) libraries are installed 
  * MacOS: ask Siri
 
 
-### Installation
+### animove R package itself
 ```r
 install.packages("remotes")
 remotes::install_github("AniMoveCourse/animove")
