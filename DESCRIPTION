@@ -44,7 +44,10 @@ Imports: ggplot2 (>= 2.2.1),
     RgoogleMaps,
     rworldmap,
     scales (>= 0.4.1),
-    remotes
+    remotes,
+    moveHMM,
+    EMbC,
+    ggsn
 Remotes: github::ctmm-initiative/ctmmweb,
     github::16EAGLE/getSpatialData,
     url::https://raw.githubusercontent.com/cbracis/mrw/master/mrw.tar.gz,
