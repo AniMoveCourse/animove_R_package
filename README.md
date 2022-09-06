@@ -17,6 +17,7 @@ Please make sure that the [GDAL](https://www.gdal.org/) libraries are installed 
 install.packages("remotes")
 remotes::install_github("annescharf/animove")
 ```
+Should you have issues installing, maybe you have to set a token. See this book chapter for more details: https://happygitwithr.com/https-pat.html
 
 ## Included Example Data
 ```r
