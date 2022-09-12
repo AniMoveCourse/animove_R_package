@@ -63,7 +63,6 @@ Remotes: github::ctmm-initiative/ctmmweb,
     github::16EAGLE/getSpatialData,
     github::rforge/tlocoh/pkg,
     github::gearslaboratory/gdalUtils,
-    url::https://raw.githubusercontent.com/cbracis/mrw/master/mrw.tar.gz,
     url::https://raw.githubusercontent.com/cbracis/waddle/master/waddle.tar.gz
 License: GPL-3
 Encoding: UTF-8
