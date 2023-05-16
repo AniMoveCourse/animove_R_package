@@ -15,7 +15,7 @@ Please make sure that the [GDAL](https://www.gdal.org/) libraries are installed 
 ### Install the animove R package itself
 ```r
 install.packages("remotes")
-remotes::install_github("annescharf/animove")
+remotes::install_github("AniMoveCourse/animove")
 ```
 
 ## Included Example Data
