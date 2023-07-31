@@ -5,18 +5,29 @@ In addition, it provides example data to be used during the lectures.
 
 ## Installation
 ### Install system dependencies
-Please make sure that the [GDAL](https://www.gdal.org/) libraries are installed on your system.
+Please make sure that the [GDAL](https://gdal.org/) libraries are installed on your system.
 
- * Windows: use the [OSGeo4W installer](https://trac.osgeo.org/osgeo4w/) 
- * Ubuntu: `sudo apt install gdal-bin libgdal-dev ` 
- * MacOS: ask Siri
+- Windows: use the [OSGeo4W](https://trac.osgeo.org/osgeo4w/) installer
+- Ubuntu: `sudo apt install gdal-bin libgdal-dev` 
+- MacOS: ask Siri
 
-
-### Install the animove R package itself
+### Install the animove R package 
 ```r
 install.packages("remotes")
 remotes::install_github("AniMoveCourse/animove_R_package")
 ```
+
+## Issues when installing
+If you get an error message that `MODIStsp` cannot be installed. Please install it first directly through R `install.packages("MODIStsp")`. You might be missing some dependencies on the system, instructions will be given with the error message (scroll up). Once it is successfully installed, install the `animove_R_package` package again
+
+
+If you get a issue similar to:
+```r
+Error: Failed to install 'unknown package' from GitHub:
+   HTTP error 401.
+ Bad credentials
+```
+The suggestion described [here](https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github) should solve it
 
 ## Included Example Data
 ```r
