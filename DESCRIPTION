@@ -43,7 +43,7 @@ Remotes:
     github::ctmm-initiative/ctmmweb,
     github::rforge/tlocoh/pkg,
     github::jhollist/elevatr,
-    url::https://github.com/cbracis/waddle/blob/master/waddle.tar.gz
+    url::https://raw.githubusercontent.com/cbracis/waddle/master/waddle.tar.gz
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
