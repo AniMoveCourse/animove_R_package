@@ -33,7 +33,7 @@ Imports: adehabitatHR,
     mvtnorm,
     parsedate,
     purrr,
-    quadprog
+    quadprog,
     raster,
     readr,
     rgeos,
