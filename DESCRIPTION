@@ -8,6 +8,7 @@ Depends: R (>= 4.3.1),
     move2 
 Imports: adehabitatHR,
     adehabitatLT,
+    amt,
     bcpa,
     canadianmaps,
     circular,
@@ -26,7 +27,6 @@ Imports: adehabitatHR,
     mgcv,
     MODIStsp,
     move,
-    move2,
     moveHMM,
     mvtnorm,
     purrr,
@@ -42,7 +42,9 @@ Imports: adehabitatHR,
 Remotes: 
     github::ctmm-initiative/ctmmweb,
     github::rforge/tlocoh/pkg,
+    github::jhollist/elevatr,
+    url::https://github.com/cbracis/waddle/blob/master/waddle.tar.gz
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 7.2.3
