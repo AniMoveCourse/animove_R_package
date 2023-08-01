@@ -18,7 +18,13 @@ remotes::install_github("AniMoveCourse/animove_R_package")
 ```
 
 ## Issues when installing
-If you get an error message that `MODIStsp` cannot be installed. Please install it first directly through R `install.packages("MODIStsp")`. You might be missing some dependencies on the system, instructions will be given with the error message (scroll up). Once it is successfully installed, install the `animove_R_package` package again
+If you get an error message that `MODIStsp` cannot be installed. Please install it first directly through R `install.packages("MODIStsp")`. You might be missing some dependencies on the system, instructions will be given with the error message (scroll up). For Ubuntu users these might be the following:
+
+`sudo apt install libjq-dev`
+`sudo apt install libprotobuf-dev`
+`sudo apt install protobuf-compiler`
+
+Once these are successfully installed, install the `animove_R_package` package again
 
 
 If you get a issue similar to:
