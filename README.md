@@ -5,7 +5,7 @@ In addition, it provides example data to be used during the lectures.
 
 ## Installation
 ### Install system dependencies
-Please make sure that the [GDAL](https://gdal.org/) libraries are installed on your system (for the time being we might still be unsing some packages that depend on GDAL).
+Please make sure that the [GDAL](https://gdal.org/) libraries are installed on your system (for the time being we might still be using some packages that depend on GDAL).
 
 - Windows: use the [OSGeo4W installer](https://trac.osgeo.org/osgeo4w/)
 - Ubuntu: `sudo apt install gdal-bin libgdal-dev` 
