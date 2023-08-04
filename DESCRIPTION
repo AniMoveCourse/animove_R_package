@@ -55,6 +55,7 @@ Imports: adehabitatHR,
     suncalc,
     terra,
     tidyr,
+    tidyterra,
     units,
     vroom
 Remotes: 
