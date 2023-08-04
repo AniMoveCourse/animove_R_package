@@ -65,6 +65,7 @@ Remotes:
     github::rforge/tlocoh/pkg,
     github::jhollist/elevatr,
     github::ropensci/rnaturalearthhires,
+    github::16EAGLE/moveVis,
     url::https://raw.githubusercontent.com/cbracis/mrw/master/mrw.tar.gz,
     url::https://raw.githubusercontent.com/cbracis/waddle/master/waddle.tar.gz
 License: GPL-3
