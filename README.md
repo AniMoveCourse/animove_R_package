@@ -11,17 +11,31 @@ remotes::install_github("AniMoveCourse/animove_R_package")
 
 ## Issues when installing
 
-If you get a issue similar to:
-```r
+1. If you get an issue similar to:
+```
 Error: Failed to install 'unknown package' from GitHub:
    HTTP error 401.
  Bad credentials
 ```
 The suggestion described [here](https://stackoverflow.com/questions/70908295/failed-to-install-unknown-package-from-github) should solve it
 
+2. If you get an issue similar to:
+```
+Downloading GitHub repo AniMoveCourse/animove_R_package@HEAD
+Error in utils::download.file(url, path, method = method, quiet = quiet,  :
+  download from 'https://api.github.com/repos/AniMoveCourse/animove_R_package/tarball/HEAD' failed
+```
+
+The suggestion [here](https://stackoverflow.com/questions/72495046/downloads-from-github-repo-in-r-keeps-failing) (`options(timeout=400)`) seems to solve the problem.
+
+3. Mostly for windows users, 
+
+if the library `doMC` fails to install, install it manually with `install.packages("doMC", repos="http://R-Forge.R-project.org")` and than installing the animove R library again should work.
+
 ## Included Example Data
 ```r
 library(animove)
+library(raster)
 
 ## Load movement data of African buffalo
 data(buffalo_ll_mv2)  # unprojected (LatLong)
