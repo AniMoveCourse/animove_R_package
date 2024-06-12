@@ -4,7 +4,7 @@ Version: 2024.0
 Authors@R: c(person("AnimoveCoreTeam",role="aut"), person("Benjamin", "Leutner", email = "benjamin.leutner@uni-wuerzburg.de", role = c("aut", "cre")),person("Anne K.", "Scharf", email = "ascharf@ab.mpg.de", role = "aut")	)
 Description: This is a meta-package for use in the Animove lecture series. Its purpose is to install necessary packages for the course as well as some example data.
 URL: www.animove.org
-Depends: R (>= 4.4.0),
+Depends: R (>= 4.3.3),
     move2
 Imports: adehabitatHR,
     adehabitatLT,
@@ -82,12 +82,11 @@ Imports: adehabitatHR,
     units,
     viridis,
     vroom
-Remotes: 
-    github::EliGurarie/smoove,
-    github::dkahle/ggmap,
-    github::16EAGLE/moveVis,
-    github::ecoisilva/movedesign,
-    github::ropensci/rnaturalearthhires
+Remotes: EliGurarie/smoove,
+    dkahle/ggmap,
+    16EAGLE/moveVis,
+    ecoisilva/movedesign,
+    ropensci/rnaturalearthhires
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
