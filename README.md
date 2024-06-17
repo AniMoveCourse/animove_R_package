@@ -34,7 +34,7 @@ if the library `doMC` fails to install, install it manually with `install.packag
 
 4. If if you get asked to register a token
 
-If you have a github account, go (here)[https://github.com/settings/tokens] to create a token.
+If you have a github account, go here https://github.com/settings/tokens to create a token.
 Than run in the R console `GITHUB_PAT=your-token-without-quotes`
 Restart R and try to install this library again
 
