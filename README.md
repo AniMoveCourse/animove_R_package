@@ -32,6 +32,12 @@ The suggestion [here](https://stackoverflow.com/questions/72495046/downloads-fro
 
 if the library `doMC` fails to install, install it manually with `install.packages("doMC", repos="http://R-Forge.R-project.org")` and than installing the animove R library again should work.
 
+4. If if you get asked to register a token
+
+If you have a github account, go (here)[https://github.com/settings/tokens] to create a token.
+Than run in the R console `GITHUB_PAT=your-token-without-quotes`
+Restart R and try to install this library again
+
 ## Included Example Data
 ```r
 library(animove)
