@@ -76,7 +76,6 @@ Imports: amt,
         tidyverse,
         utils,
         viridis
-Remotes: robe2037/moveVis
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
