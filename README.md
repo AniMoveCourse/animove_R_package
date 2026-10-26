@@ -16,14 +16,14 @@ Please contact Anne Scharf (<ascharf@ab.mpg.de>)
 ## Included Example Data
 ```r
 library(animove)
-library(raster)
+library(terra)
 
 ## Load movement data of African buffalo
 data(buffalo_ll_mv2)  # unprojected (LatLong)
 data(buffalo_utm_mv2) # projected (UTM 36S)
 
 ## Environmental layers
-data(buffalo_env)
+buffalo_env <- rast(system.file("extdata", "buffalo_env.tif", package = "animove"))
 
 ## Plot
 plot(buffalo_env[[1]])
